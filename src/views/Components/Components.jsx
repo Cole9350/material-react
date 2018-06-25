@@ -73,7 +73,7 @@ class Components extends React.Component {
           <SectionCompletedExamples />
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
-            <Link to={"/login-page"} className={classes.link}>
+            <Link to="login-page" className={classes.link}>
               <Button color="primary" size="lg" simple>
                 View Login Page
               </Button>
